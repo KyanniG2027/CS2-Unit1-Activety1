@@ -15,6 +15,18 @@ public class Main {
       System.out.println("Type your name then press enter");
       String player = input.nextLine();
       System.out.println("Welcome," + player);
+      String adjective = "scary";
+      String adverbs = "together";
+      String noun = "friend"; 
+      String article = "the";
+      String verb = "has";
+      String noun = "basket"; 
+      String number = "third";
+      String color = "green"
+      String number =  "fourth";
+      String verb = "has";
+      String noun = "pillow";
+      System.out.println("On a " + adjective + " Halloween night."); 
       
    }
 }

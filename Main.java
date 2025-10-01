@@ -15,17 +15,24 @@ public class Main {
       System.out.println("Type your name then press enter");
       String player = input.nextLine();
       System.out.println("Welcome," + player);
-      String adjective = "scary";
+
+      // Making the variables interactive
+      System.out.println("Type an adjective: ");
+      String adjective = input.nextLine();
+      
+      // After finishing printing story below, change these variables to be like the section above
       String adverbs = "together";
       String noun = "friend"; 
       String article = "the";
       String verb = "has";
-      String noun = "basket"; 
+      String noun1 = "basket"; 
       String number = "third";
-      String color = "green"
-      String number =  "fourth";
-      String verb = "has";
-      String noun = "pillow";
+      String color = "green";
+      String number2 =  "fourth";
+      String verb2 = "has";
+      String noun2 = "pillow";
+
+      // PRINT OUT STORY WITH VARIABLES (finish first)
       System.out.println("On a " + adjective + " Halloween night."); 
       
    }

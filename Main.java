@@ -19,8 +19,7 @@ public class Main {
       // Making the variables interactive
       System.out.println("Type an adjective: ");
       String adjective = input.nextLine();
-      
-      // After finishing printing story below, change these variables to be like the section above
+
       String adverbs = "together";
       String noun = "friend"; 
       String article = "the";
@@ -34,6 +33,11 @@ public class Main {
 
       // PRINT OUT STORY WITH VARIABLES (finish first)
       System.out.println("On a " + adjective + " Halloween night."); 
-      
+      System.out.println("Four friends get" + adverb+ "to go" + verb);
+      System.out.println("One" + noun + "has a pumkin basket");
+      System.out.println(article + "second friend" + verb + "a ghost" + noun);
+      System.out.println("The" + number + "friend has a" + color + "monster basket");
+      System.out.println("And the" + number + "friend" + verb + "a vampire" + noun + "case");
+
    }
 }
